@@ -134,12 +134,6 @@ namespace Powder.Singleton
             return newParticlePos;
         }
 
-        //public void ResetSnowball()
-        //{
-        //    snowballs.Add(Instantiate(snowball, startingPos, Quaternion.identity));
-        //    snowballSize = snowballs[snowballs.Count - 1].GetComponent<Transform>();
-        //}
-
         public void RemoveSnowball(GameObject snowball1)
         {
             Vector3 pos = snowball1.transform.position;

@@ -181,13 +181,6 @@ public class Snowball : MonoBehaviour
         return isDestroyed;
     }
 
-    //void ResetSize()
-    //{
-    //    transform.Translate(new Vector3(0,3,0), Space.World);
-    //    transform.localScale = newSize;
-    //    playerStats.speed = playerStats.startSpeed;     // resets players speed
-    //}
-
     Vector3 CurrentPosition()
     {
         curPos = transform.position;
